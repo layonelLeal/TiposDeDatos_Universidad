@@ -31,7 +31,7 @@ public class TiposDeDatos {
         System.out.println("Ejercicio Practico de los tipos de datos.");
         
         System.out.println("Ingresa un boleano: ");
-        boolean user_boleano = Boolean.parseBoolean(sc.next()); //Aca estoy cambiando de valor un string a un valor boleano.
+        boolean user_boleano = Boolean.parseBoolean(sc.next()); 
         System.out.println("El Boleano Igresado es: " + user_boleano + " y ocupa un espacio de: " + BOOLEAN_SIZE + " bits");
         
         System.out.println("Ingresa un caracter: ");
